@@ -16,3 +16,13 @@ body {
 
   font-family: 'JetBrains Mono', monospace;
 }
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bdc3c7;
+  text-decoration: underline;
+}
