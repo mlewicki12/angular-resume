@@ -47,4 +47,5 @@ Thumbs.db
 
 # firebase hosting files
 .firebaserc
+.firebase/
 firebase.json
