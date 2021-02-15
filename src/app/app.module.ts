@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { EducationComponent } from './components/education/education.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EducationComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
