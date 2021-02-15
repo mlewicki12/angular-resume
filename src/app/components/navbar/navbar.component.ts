@@ -8,13 +8,19 @@ import { Location } from '@angular/common';
 })
 export class NavbarComponent implements OnInit {
   page: string = '';
+  routeMap: {[key: string] : string} = {
+    "/about": "About Me",
+    "/education": "Education",
+    "/experience": "Experience",
+    "/projects": "Projects",
+    "/hobbies": "Hobbies"
+  };
 
   constructor(private location: Location) { }
 
   ngOnInit(): void {
     this.location.onUrlChange(val => {
-      const page = val.substring(1).split('/')[0];
-      this.page = page.charAt(0).toUpperCase() + page.substring(1);
+      this.page = this.routeMap[val];
     });
   }
 

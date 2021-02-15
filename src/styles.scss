@@ -20,6 +20,18 @@ app-root {
   width: 50%;
 }
 
+h2 {
+  margin: 0.5rem 0 0 0;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+section > * {
+  margin: 0;
+}
+
 hr {
   border: 1px solid #bdc3c7;
 }
