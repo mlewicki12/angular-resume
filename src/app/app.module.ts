@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { EducationComponent } from './components/education/education.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EducationComponent
+    EducationComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule
