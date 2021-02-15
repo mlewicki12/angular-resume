@@ -9,6 +9,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { ProjectsComponent } from './components/projects/projects.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HobbiesComponent } from './components/hobbies/hobbies.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HobbiesComponent } from './components/hobbies/hobbies.component';
     ExperienceComponent,
     ProjectsComponent,
     NavbarComponent,
-    HobbiesComponent
+    HobbiesComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
